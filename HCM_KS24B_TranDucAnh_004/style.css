@@ -1,0 +1,86 @@
+/* reset tat ca */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+h2 {
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    color: blue;
+    text-align: center;
+}
+
+h1{
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.box1{
+    display: flex;
+    gap: 100px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.box1 input {
+    max-width: 600px;
+}
+
+.box2{
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.container{
+    margin-top: 30px;
+    max-width: 1060px;
+    height: auto;
+    background-color: white;
+    box-shadow:0 4 12 0 rgba(0, 0, 0, 0.1);
+ ;
+    border-radius: 12px;
+}
+body{
+    background-color: #F0F0F0;
+}
+
+.box1,
+.box2 {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+}
+
+.box1 .form-control,
+.box2 .form-control,
+.box1 .form-select,
+.box2 .form-select {
+    flex: 1; 
+    max-width: 600px;
+    min-width: 300px; 
+}
+.btn-success{
+    background-color: #00B894;
+    border: none;
+}
+.text-danger{
+    font-size: 12;
+    font-weight: 400;
+    margin-top: 4px;
+}
+thead.bg-primary {
+    background-color: #0d6efd; 
+    color: white; 
+    text-align: center; 
+}
+
+table{
+    border: 2px solid black;
+}
